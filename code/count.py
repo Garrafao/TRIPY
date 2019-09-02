@@ -1,10 +1,7 @@
-import sys
-sys.path.append('./modules/')
-
-from collections import defaultdict
 from docopt import docopt
 import logging
 import time
+from collections import defaultdict
 from scipy.sparse import dok_matrix
 from utils_ import Space
 from gensim.models.word2vec import PathLineSentences

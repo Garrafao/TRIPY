@@ -2,7 +2,6 @@ from docopt import docopt
 import logging
 import time
 import numpy as np
-from scipy.sparse import csc_matrix, lil_matrix
 from utils_ import Space
 
 

@@ -1,6 +1,3 @@
-import sys
-sys.path.append('./modules/')
-
 from docopt import docopt
 import logging
 import time
@@ -90,8 +87,7 @@ def main():
 
                 
     logging.info("--- %s seconds ---" % (time.time() - start_time))                   
-    
-    
+
 
 if __name__ == '__main__':
     main()
