@@ -32,7 +32,7 @@ def main():
            http://www.cs.ucsc.edu/~optas/papers/jl.pdf
 
     ''')
-    np.random.seed(0)
+    #np.random.seed(0) # uncomment for reproducibility
     
     vocabFile = args['<vocabFile>']
     outPath = args['<outPath>']
